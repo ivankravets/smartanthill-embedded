@@ -1,5 +1,5 @@
-SmartAnthill Embedded System (Firmware)
-=======================================
+SmartAnthill Embedded System
+============================
 
 Please follow to `Documentation <http://docs.smartanthill.ikravets.com/en/latest/specification/embedded/index.html>`_ section of *SmartAnthill Embedded System*.
 
