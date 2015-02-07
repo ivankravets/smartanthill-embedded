@@ -1,10 +1,10 @@
 SmartAnthill Embedded System
 ============================
 
-Please follow to `Documentation <http://docs.smartanthill.ikravets.com/en/latest/specification/embedded/index.html>`_ section of *SmartAnthill Embedded System*.
+Please follow to `Documentation <http://smartanthill-10.readthedocs.org/en/latest/specification/embedded/index.html>`_ section of *SmartAnthill Embedded System*.
 
 *SmartAnthill Embedded System* allows main `SmartAnthill System <https://github.com/ivankravets/smartanthill>`_ to communicate with hardware part
-(`Peripherals <http://docs.smartanthill.ikravets.com/en/latest/specification/embedded/peripherals.html>`_) of micro-based device through `Router Service <http://docs.smartanthill.ikravets.com/en/latest/specification/embedded/router.html>`_ that resides on *Network Layer* of `SmartAnthill Network Model <http://docs.smartanthill.ikravets.com/en/latest/specification/network/netmodel.html>`_.
+(`Peripherals <http://smartanthill-10.readthedocs.org/en/latest/specification/embedded/peripherals.html>`_) of micro-based device through `Router Service <http://smartanthill-10.readthedocs.org/en/latest/specification/embedded/router.html>`_ that resides on *Network Layer* of `SmartAnthill Network Model <http://smartanthill-10.readthedocs.org/en/latest/specification/network/netmodel.html>`_.
 
 Router Service
 --------------
@@ -20,23 +20,23 @@ tasks:
 Activity Diagram
 ~~~~~~~~~~~~~~~~
 
-.. image:: http://docs.smartanthill.ikravets.com/en/latest/_images/router.png
+.. image:: https://raw.githubusercontent.com/smartanthill/smartanthill1_0/develop/docs/specification/embedded/router.png
 
 
 Operational State Machine
 -------------------------
 
-The `Operational State Machine <http://docs.smartanthill.ikravets.com/en/latest/specification/embedded/osm.html>`_ is a
+The `Operational State Machine <http://smartanthill-10.readthedocs.org/en/latest/specification/embedded/osm.html>`_ is a
 `Finite State Machine <http://en.wikipedia.org/wiki/Finite-state_machine>`_
 with predefined operational states. It can be in only one operational state at
 a time. The transition from one operational state to another can be initiated
-by a *Triggering Event* (device interrupt) or *Condition* (based on `Channel Data Classifier <http://docs.smartanthill.ikravets.com/en/latest/specification/network/cdc/index.html>`_).
+by a *Triggering Event* (device interrupt) or *Condition* (based on `Channel Data Classifier <http://smartanthill-10.readthedocs.org/en/latest/specification/network/cdc/index.html>`_).
 
 
 State Diagram
 ~~~~~~~~~~~~~
 
-.. image:: http://docs.smartanthill.ikravets.com/en/latest/_images/osm.png
+.. image:: https://raw.githubusercontent.com/smartanthill/smartanthill1_0/develop/docs/specification/embedded/osm.png
 
 Questions
 ---------
